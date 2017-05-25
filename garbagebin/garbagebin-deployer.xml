@@ -26,7 +26,7 @@
 
     <modules>
 
-        <module>SenseMe</module>
+        <module>garbagebin</module>
 
     </modules>
 
@@ -59,7 +59,7 @@
                             <featureArtifacts>
 
                                 <featureArtifactDef>
-                                    org.wso2.iot:org.wso2.iot.senseme.feature:${org.wso2.iot.version}
+                                    org.homeautomation:org.homeautomation.garbagebin.feature:${org.wso2.iot.version}
                                 </featureArtifactDef>
 
                             </featureArtifacts>
@@ -80,7 +80,7 @@
                             <features>
 
                                 <feature>
-                                    <id>org.wso2.iot.senseme.feature.group</id>
+                                    <id>org.homeautomation.garbagebin.feature.group</id>
                                     <version>${org.wso2.iot.version}</version>
                                 </feature>
 
@@ -196,7 +196,7 @@
     </repositories>
     <properties>
         <carbon.device.mgt.plugin.version>3.0.8</carbon.device.mgt.plugin.version>
-        <org.wso2.iot.version>1.0.0-SNAPSHOT</org.wso2.iot.version>
+        <org.wso2.iot.version>1.0-SNAPSHOT</org.wso2.iot.version>
     </properties>
 </project>
 
